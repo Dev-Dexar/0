@@ -141,7 +141,7 @@ def monitor_subscriptions():
                     )
                     bot.send_message(
                         user_id,
-                        f"✅ Subscription active.\nNext due on {time.strftime('%d %B %Y', time.localtime(sub['current_end']))}\nInvite link (valid for 1 minute):\n{invite.invite_link}"
+                        f"✅ Subscription active.\nSubscription Purchased On{time.strftime('%d %B %Y', time.localtime(sub['current_end']))}\nInvite link (valid for 1 minute):\n{invite.invite_link}"
                     )
                     paid_collection.update_one({"user_id": user_id}, {
                         "$set": {
