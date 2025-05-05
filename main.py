@@ -34,7 +34,7 @@ def send_welcome(message):
         upsert=True,
     )
 
-    image_url = "https://i.ibb.co/DPf9tr34/x.jpg"
+    image_url = "https://media-hosting.imagekit.io/4274627f9c6f496a/1000046208.jpg?Expires=1841075767&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=JhxhRmWl5a7roqAf7iC8zCeEvaRR476Y9IOJgAft-GIS55cuV3WXW-pLHPdOf5TBPP8RHUIEeW6GWRPOO7jH7KO7bbz2dIM5pRlMBVwzvARz6bJwWqz9bUV0ED5LxjXd27LXg0QjzrS-CQ-SZeSbP-vkwQo8ieA0wYKetedKfUy9ej792wK7bcyYU~wApK4WMuQuNztRpun~9uT75ldl3ku8JfSKJ2yOy8f44Zb5plFYxqxhI9wp00Wrj4yuVgXrABTUimghUNFkOCGph3Nt0yNVlVlYWEYIJ3GM4YRs8-P1OYQ8ZXrk5tC~Y23mhAlPJjvC1XqBTVoY2ePnTUTX6g__"
 
     caption = f"""👾 *Welcome, {first_name}* 👾
 
