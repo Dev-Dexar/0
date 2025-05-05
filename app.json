@@ -1,0 +1,36 @@
+{
+  "name": "telegram-subscription-bot",
+  "description": "Telegram bot with Razorpay AutoPay and dashboard integration",
+  "repository": "https://github.com/pagal4209/j",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token",
+      "required": true
+    },
+    "RAZORPAY_KEY": {
+      "description": "Razorpay API Key",
+      "required": true
+    },
+    "RAZORPAY_SECRET": {
+      "description": "Razorpay API Secret",
+      "required": true
+    },
+    "CHANNEL_ID": {
+      "description": "Private Channel ID (with -100 prefix)",
+      "required": true
+    },
+    "ADMIN_ID": {
+      "description": "Your Telegram User ID",
+      "required": true
+    },
+    "MONGO_URI": {
+      "description": "MongoDB connection URI",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}

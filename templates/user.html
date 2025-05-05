@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>User Info</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="stars" id="stars"></div>
+    <div class="container">
+        {% if user %}
+        <h2 style="text-shadow: 0 0 15px cyan;">User: {{ user.user_id }}</h2>
+        <ul style="list-style-type: none; padding: 0; font-size: 18px;">
+            <li><strong>Plan:</strong> {{ user.plan_type }}</li>
+            <li><strong>Status:</strong> {{ user.status }}</li>
+            <li><strong>Next Due:</strong> {{ user.next_due_on or "N/A" }}</li>
+            <li><strong>Invite:</strong> {{ user.invite_link or "Not Generated" }}</li>
+        </ul>
+        <br>
+        <a href="{{ url_for('dashboard') }}" style="color: cyan; text-decoration: none;">
+            ⬅ Back to Dashboard
+        </a> {% else %}
+        <p class="error">User not found</p>
+        {% endif %}
+    </div>
+    <script src="{{ url_for('static', filename='stars.js') }}"></script>
+</body>
+
+</html>

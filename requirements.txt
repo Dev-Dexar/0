@@ -1,0 +1,7 @@
+pyTelegramBotAPI
+razorpay
+pymongo
+python-dotenv
+pytz
+flask
+setuptools
