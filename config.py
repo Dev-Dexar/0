@@ -12,7 +12,7 @@ MONGO_URI = os.getenv("MONGO_URI")
 ADMIN_SECRET = os.getenv("ADMIN_SECRET", "12345")
 
 RAZORPAY_PLANS = {
-    "week": os.getenv("RAZORPAY_WEEK", "plan_QRHMNOkp82MeWz"),
+    "week": os.getenv("RAZORPAY_WEEK", "plan_QUqJ2XHZz1CQyM"),
     "month": os.getenv("RAZORPAY_MONTH", "plan_QLjVbYTMyXO74d"),
     "year": os.getenv("RAZORPAY_YEAR", "plan_QLjW2npA6Lig82")
 }
