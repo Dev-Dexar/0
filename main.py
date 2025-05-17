@@ -45,8 +45,7 @@ def send_welcome(message):
 🔐 _Next-gen access powered by AI & UPI AutoPay_
 
 💠 Choose Your Plan:
-• Rs 129/Week
-• Rs 299/week
+• Rs 299/Month
 • Rs 999/Yearly
 
 🛡️ Secure | 🤖 Automated | ⚡ Fast
@@ -54,9 +53,9 @@ def send_welcome(message):
 Click below to activate your pass ⬇️"""
 
     markup = InlineKeyboardMarkup()
-    markup.add(InlineKeyboardButton("🚀 Weekly | ₹1/week", callback_data="subscribe_week"))
-    markup.add(InlineKeyboardButton("📅 Monthly | ₹299/Month(Best Plan)", callback_data="subscribe_month"))
-    markup.add(InlineKeyboardButton("📆 Yearly | ₹10/year", callback_data="subscribe_year"))
+    
+    markup.add(InlineKeyboardButton("📅 Monthly | ₹299/Month", callback_data="subscribe_month"))
+    markup.add(InlineKeyboardButton("📆 Yearly | ₹989/year", callback_data="subscribe_year"))
 
 
     bot.send_photo(user_id, image_url, caption=caption, reply_markup=markup, parse_mode="Markdown")
