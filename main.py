@@ -46,13 +46,14 @@ def send_welcome(message):
 
 💠 Choose Your Plan:
 • Rs 299/Month
-• Rs 999/Yearly
+• Rs 989/Yearly
 
 🛡️ Secure | 🤖 Automated | ⚡ Fast
 
 Click below to activate your pass ⬇️"""
 
     markup = InlineKeyboardMarkup()
+    
     markup.add(InlineKeyboardButton("📅 Monthly | ₹299/Month", callback_data="subscribe_month"))
     markup.add(InlineKeyboardButton("📆 Yearly | ₹989/year", callback_data="subscribe_year"))
 
