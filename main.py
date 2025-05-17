@@ -53,7 +53,6 @@ def send_welcome(message):
 Click below to activate your pass ⬇️"""
 
     markup = InlineKeyboardMarkup()
-    
     markup.add(InlineKeyboardButton("📅 Monthly | ₹299/Month", callback_data="subscribe_month"))
     markup.add(InlineKeyboardButton("📆 Yearly | ₹989/year", callback_data="subscribe_year"))
 
