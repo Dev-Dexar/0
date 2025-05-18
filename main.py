@@ -44,9 +44,8 @@ def send_welcome(message):
 
 🔐 _Next-gen access powered by AI & UPI AutoPay_
 
-💠 Choose Your Plan:
-• Rs 299/Month
-• Rs 989/Yearly
+💠 Check Demo:
+• https://t.me/UMemDemo_bot?start=BQADAQADvhYAAh2CUEX6R-SF5vZRrxYE
 
 🛡️ Secure | 🤖 Automated | ⚡ Fast
 
