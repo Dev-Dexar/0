@@ -42,8 +42,6 @@ def send_welcome(message):
 🔹 *User ID:* `{user_id}`
 🕒 *Accessed on:* `{current_time}`
 
-🔐 _Next-gen access powered by AI & UPI AutoPay_
-
 [💠 Check Demo](https://t.me/UMemDemo_bot?start=BQADAQADvhYAAh2CUEX6R-SF5vZRrxYE)
 
 🛡️ Secure | 🤖 Automated | ⚡ Fast
