@@ -42,8 +42,9 @@ def send_welcome(message):
 🔹 *User ID:* `{user_id}`
 🕒 *Accessed on:* `{current_time}`
 
-See Demo
-[➡️ Click Here](https://t.me/UMemDemo_bot?start=BQADAQADvhYAAh2CUEX6R-SF5vZRrxYE)
+💠 Choose Your Plan:
+• Rs 299/Month
+• Rs 989/Yearly
 
 🛡️ Secure | 🤖 Automated | ⚡ Fast
 
