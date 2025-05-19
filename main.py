@@ -43,7 +43,7 @@ def send_welcome(message):
 🕒 *Accessed on:* `{current_time}`
 
 See Demo🔽
-[💠 Click Here](https://t.me/UMemDemo_bot?start=BQADAQADvhYAAh2CUEX6R-SF5vZRrxYE)
+[➡️ Click Here](https://t.me/UMemDemo_bot?start=BQADAQADvhYAAh2CUEX6R-SF5vZRrxYE)
 
 🛡️ Secure | 🤖 Automated | ⚡ Fast
 
